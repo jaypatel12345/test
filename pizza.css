@@ -1,0 +1,48 @@
+.pizzaCard {
+  border: 2px solid black;
+  margin: 10px;
+  height: 300px;
+  width: 325px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.allPizzas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagediv img {
+  height: 150px;
+  width: 102%;
+  display: block;
+}
+
+.titleDiv {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.titleDiv p {
+  margin: 10px 0px 0px 0px;
+}
+
+.titleDiv h2 {
+  margin: 10px 0px 0px 0px;
+}
+
+.dropdowndiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.dropdowndiv select {
+  height: 25px;
+}
+
+.pizPrice {
+  position: absolute;
+}
