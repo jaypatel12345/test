@@ -4,6 +4,7 @@ export default function App() {
   return (
     <div className="App">
       <Pizza />
+      {/* test */}
     </div>
   );
 }
